@@ -1,6 +1,6 @@
 <?php
 
-function dumpAndDie($value)
+function dumpAndDie($value):void
 {
     echo "<pre>";
     var_dump($value);
